@@ -2,35 +2,22 @@ package ExercíciosGeneration;
 
 public class ex01Cavalo extends exAnimal {
 
-	private String sexo;
+	private String correr;
 
-	public ex01Cavalo(String nome, int idade, String som, Boolean correr, String sexo) {
+	public ex01Cavalo(String nome, int idade, String som, String correr) {
 		super(nome, idade, som, correr);
-		this.sexo = sexo;
+		this.correr=correr;
 	}
-
-	public String getSexo() {
-		return sexo;
-	}
-
-	public void setSexo(String sexo) {
-		this.sexo = sexo;
-	}
-
-	public void imprimirInfo() {
-
-		System.out.println("\n******Dados do cachorrinho*****\n Nome: " + getNome() + ", sua idade é:" + getIdade()
-				+ "emite o seguinte som:" + getSom() + ",pode correr: " + getCorrer() + " km/h");
-	}
-
-	public void imprimirSexo(String getSexo) {
-		if (sexo == "fêmea") {
-			System.out.println("O sexo desse animal é fêmea!");
-
-		} else {
-			System.out.println("O sexo desse animal é macho!");
+		public void imprimirInfo() {
+			
+			System.out.println("\n*****Dados do Cavalo******\n O nome do pocotó é: " + getNome() + ", sua idade é "
+					+ getIdade()+" anos" + ", emite o seguinte som: " + getSom());
 		}
-
-	
-	}
-}
+			
+			public void imprimirAção() {
+				
+				System.out.println("\n****** é usado para hipismo!********"+getCorrer());
+		     
+				
+			}
+		}

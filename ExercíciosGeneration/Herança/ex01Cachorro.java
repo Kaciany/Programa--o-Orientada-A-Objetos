@@ -15,7 +15,7 @@ public class ex01Cachorro extends exAnimal {
 
 	public void imprimirInfo() {
 		
-		System.out.println("\n*****Dados do cachorrinho******\n O nome do dog é: " + getNome() + ", sua idade é "
+		System.out.println("\n*****Dados do Cachorrinho******\n O nome do dog é: " + getNome() + ", sua idade é "
 				+ getIdade()+" anos" + ", emite o seguinte som: " + getSom());
 	}
 		
