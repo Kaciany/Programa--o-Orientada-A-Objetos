@@ -21,9 +21,9 @@ public class PessoaAdocao extends Pessoa {
             while (mainLoop) {
                 try {
 
-                    System.out.println("Selecione a opï¿½ï¿½o desejava: ");
-                    System.out.println("\n 1. Doaï¿½ï¿½o.");
-                    System.out.println("\n 2. Adoï¿½ï¿½o.");
+                    System.out.println("Selecione a opção desejava: ");
+                    System.out.println("\n 1. Doação.");
+                    System.out.println("\n 2. Adoação.");
                     System.out.println("\n 0. Sair do sistema.");
                     x = leia.nextInt();
 
@@ -34,25 +34,25 @@ public class PessoaAdocao extends Pessoa {
 
                             leia.nextLine();
                             mainLoop=false;
-                            System.out.println("\n=== Doaï¿½ï¿½o === ");
-                            System.out.println("\nInforme em sequencia os dados: nome do animal, idade e gï¿½nero do animal: ");
+                            System.out.println("\n=== Doação === ");
+                            System.out.println("\nInforme em sequencia os dados: nome do animal, idade e gÃªnero do animal: ");
                             String animal = leia.next();
                             animais.add(animal);
-                            System.out.println("\nParabï¿½ns" + nome
-                                    + ", vocï¿½ acaba de nos passar os dados do seu animal para doar! Para confirmar sua doaï¿½ï¿½o entre em contato atravï¿½s do nï¿½mero (11) 4002-8922.");
+                            System.out.println("\nParabens" + nome
+                                    + ", vocÃª acaba de nos passar os dados do seu animal para doar! Para confirmar sua doaÃ§Ã£oo entre em contato atravÃ©s do numero (11) 4002-8922.");
                             break;
 
                         case 2:
                             mainLoop=false;
-                            System.out.println("\n=== Adoï¿½ï¿½o === ");
-                            System.out.println("\nConfira aqui os animais disponï¿½veis para adoï¿½ï¿½o:: ");
+                            System.out.println("\n=== Adoação === ");
+                            System.out.println("\nConfira aqui os animais disponeveis para adoção:: ");
                             System.out.println("\n" + animais);
-                            System.out.println("\nParabï¿½ns" + nome
-                                    + ", vocï¿½ acaba de escolher o Pet4U! Para confirmar sua adoï¿½ï¿½o entre em contato atravï¿½s do nï¿½mero (11) 4002-8922.");
+                            System.out.println("\nParabens" + nome
+                                    + ", vocÃª acaba de escolher o Pet4U! Para confirmar sua adoÃ§Ã£o entre em contato atravÃ©s do numero (11) 4002-8922.");
                             break;
 
                         default:
-                            System.out.println("Opï¿½ï¿½o invï¿½lida.");
+                            System.out.println("Opção invalida.");
 
                     }
 
@@ -60,7 +60,7 @@ public class PessoaAdocao extends Pessoa {
                 } catch (Exception e) {
 
                     System.err.println("\nERRO: " + e + "\n");
-                    System.out.println("\nDIGITE APENAS Uma das OpÃ§Ãµes");
+                    System.out.println("\nDIGITE APENAS Uma das opções");
                     leia.nextLine();
                 }
 
