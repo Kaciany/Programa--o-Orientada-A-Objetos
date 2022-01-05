@@ -20,6 +20,7 @@ public class prodTeste {
 		modelo = sc.next();
 		prod1.imprimirCor();
 		cor = sc.next();
+		prod1.setGarantia(2);
 	
 		
 
@@ -28,7 +29,7 @@ public class prodTeste {
 		System.out.println("\nMarca: " + marca);
 		System.out.println("\nModelo: " + modelo);
 		System.out.println("\nCor: " + cor);
-		System.out.println("\nGarantia: "+garantia+" anos.");
+		System.out.println("\nGarantia: "+prod1.getGarantia()+" anos.");
 		prod1.imprimirValor();
 		valor = sc.nextInt();
 		
