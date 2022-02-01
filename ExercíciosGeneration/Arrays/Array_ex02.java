@@ -1,4 +1,5 @@
-package ExercíciosGeneration;
+package ExercíciosGeneration.Arrays;
+
 /*
  * 2- Faça um programa que receba 6 números inteiros e mostre: 
 • Os números pares digitados;  

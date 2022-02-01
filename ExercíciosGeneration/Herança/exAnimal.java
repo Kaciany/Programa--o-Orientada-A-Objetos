@@ -1,4 +1,4 @@
-package ExercíciosGeneration;
+package ExercíciosGeneration.Herança;
 
 /*1- Crie uma hierarquia de classes conforme abaixo com os seguintes atributos e
 comportamentos (observe a tabela), utilize os seus conhecimentos e distribua as
@@ -53,5 +53,5 @@ public class exAnimal {
 	public void setCorrer(String correr) {
 		this.correr = correr;
 	}
-	
+
 }

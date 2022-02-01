@@ -1,4 +1,4 @@
-package ExercíciosGeneration;
+package ExercíciosGeneration.Herança;
 
 public class animalTeste {
 

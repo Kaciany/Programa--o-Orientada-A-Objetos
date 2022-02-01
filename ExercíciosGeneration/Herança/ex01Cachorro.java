@@ -1,4 +1,4 @@
-package ExercíciosGeneration;
+package ExercíciosGeneration.Herança;
 
 public class ex01Cachorro extends exAnimal {
 
@@ -11,18 +11,15 @@ public class ex01Cachorro extends exAnimal {
 
 	}
 
-	
-
 	public void imprimirInfo() {
-		
+
 		System.out.println("\n*****Dados do Cachorrinho******\n O nome do dog é: " + getNome() + ", sua idade é "
-				+ getIdade()+" anos" + ", emite o seguinte som: " + getSom());
-	}
-		
-		public void imprimirAção() {
-			
-			System.out.println("\n******gosta de correr!********"+getCorrer());
-			
-		}
+				+ getIdade() + " anos" + ", emite o seguinte som: " + getSom());
 	}
 
+	public void imprimirAção() {
+
+		System.out.println("\n******gosta de correr!********" + getCorrer());
+
+	}
+}
